@@ -16,7 +16,7 @@ dir:
 	mkdir -p $(BUILDDIR)
 
 $(BUILDDIR)/$(TARGET): $(OBJECTS)
-	$(CC) $(FLAGS) $(CFLAGS) $(DEBUGFLAGS) -o $(BUILDDIR)/$(TARGET) $(OBJECTS)
+	$(CC) $(FLAGS) $(CFLAGS) -o $(BUILDDIR)/$(TARGET) $(OBJECTS)
 
 clean:
 	$(RM) *.o
