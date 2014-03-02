@@ -1,7 +1,6 @@
-
 BUILDDIR=bin
 
-SUBDIRS = libpagemap ksmutils procrank showslab latencytop  sane_schedstat cpustats procmem showmap
+SUBDIRS = latencytop  sane_schedstat showmap
 
 all: 
 	@for dir in $(SUBDIRS); \
